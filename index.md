@@ -47,3 +47,81 @@ Each iteration consists of dividing the current value by 2. The process stops wh
 
 ----------------------------------
 
+### **W1-P3-Question**
+
+Given an integer \( n \), check if it is even.  
+
+- If \( n \) is even, print **"even"**.  
+
+### **Example Test Cases:**  
+
+| Input (n) | Output  |
+|-----------|--------|
+| 10        | even   |
+| 7         | (no output) |
+| 16        | even   |
+| 25        | (no output) |
+
+----------------------------------
+
+### **W1-P4-Question** 
+
+Given an integer \( n \), determine whether it is even or odd.  
+
+- If \( n \) is even, print **"even"**.  
+- If \( n \) is odd, print **"odd"**.  
+
+### **Example Test Cases:**  
+
+| Input (n) | Output  |
+|-----------|--------|
+| 10        | even   |
+| 7         | odd    |
+| 16        | even   |
+| 25        | odd    |
+
+---
+
+### **W1-P5-Question** 
+Given an integer \( n \), classify it based on its value and print the corresponding message:  
+
+- If \( n \) is less than 10, print **"less than 10"**.  
+- If \( n \) is less than 20, print **"less than 20"**.  
+- If \( n \) is less than 30, print **"less than 30"**.  
+- Continue this pattern up to **"less than 100"**.  
+
+### **Example Test Cases:**  
+
+| Input (n) | Output         |
+|-----------|---------------|
+| 5         | less than 10  |
+| 15        | less than 20  |
+| 27        | less than 30  |
+| 42        | less than 50  |
+| 99        | less than 100 |
+
+Here's the refined version of your question with five test cases:  
+
+---
+
+### **W1-P6-Question** 
+Given an integer \( n \) between 0 and 9, print its word representation.  
+
+- If \( n = 0 \), print **"zero"**.  
+- If \( n = 1 \), print **"one"**.  
+- If \( n = 2 \), print **"two"**.  
+- If \( n = 3 \), print **"three"**.  
+- If \( n = 4 \), print **"four"**.  
+- Continue this pattern up to 9.  
+
+### **Example Test Cases:**  
+
+| Input (n) | Output  |
+|-----------|--------|
+| 0         | zero   |
+| 2         | two    |
+| 4         | four   |
+| 7         | seven  |
+| 9         | nine   |
+
+
