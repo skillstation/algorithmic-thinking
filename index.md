@@ -15,8 +15,6 @@
 ### PROBLEM STATEMENTS
 
 ### W1-P1-QUESTION:  
-
-**Question:**  
 Find the sum of the first \( n \) natural numbers. Given an integer \( n \), calculate the sum of all natural numbers from 1 to \( n \).  
 
 **Example Test Cases:**  
@@ -48,7 +46,6 @@ Each iteration consists of dividing the current value by 2. The process stops wh
 ----------------------------------
 
 ### **W1-P3-Question**
-
 Given an integer \( n \), check if it is even.  
 
 - If \( n \) is even, print **"even"**.  
@@ -65,7 +62,6 @@ Given an integer \( n \), check if it is even.
 ----------------------------------
 
 ### **W1-P4-Question** 
-
 Given an integer \( n \), determine whether it is even or odd.  
 
 - If \( n \) is even, print **"even"**.  
@@ -99,8 +95,6 @@ Given an integer \( n \), classify it based on its value and print the correspon
 | 27        | less than 30  |
 | 42        | less than 50  |
 | 99        | less than 100 |
-
-Here's the refined version of your question with five test cases:  
 
 ---
 
