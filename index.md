@@ -118,4 +118,29 @@ Given an integer \( n \) between 0 and 9, print its word representation.
 | 7         | seven  |
 | 9         | nine   |
 
+-----------------------
+
+## WEEK-II
+
+### **Question-01**  
+---  
+Write a program to compute the coordinates of points on the unit circle in the first quadrant. The x-coordinates should range from 0 to 1 with a step size of 0.1. Provide the output as a table of test cases. You may use any programming language.  
+---  
+
+### **Test Cases**  
+
+| **x-coordinate** | **y-coordinate** |
+|-----------------|-----------------|
+| 0.0             | 1.0000          |
+| 0.1             | 0.9949          |
+| 0.2             | 0.9798          |
+| 0.3             | 0.9539          |
+| 0.4             | 0.9165          |
+| 0.5             | 0.8660          |
+| 0.6             | 0.8000          |
+| 0.7             | 0.7141          |
+| 0.8             | 0.6000          |
+| 0.9             | 0.4359          |
+| 1.0             | 0.0000          |
+
 
