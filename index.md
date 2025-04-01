@@ -285,6 +285,8 @@ The second equation is just **twice** the first equation, meaning they represent
 Infinite solutions
 ```
 
+![Solve Linear Equations](https://github.com/skillstation/algorithmic-thinking/blob/main/assets/challenge-linear-equations-250401.png)
+
 ---
 
 
