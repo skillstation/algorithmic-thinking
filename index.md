@@ -143,4 +143,148 @@ Write a program to compute the coordinates of points on the unit circle in the f
 | 0.9             | 0.4359          |
 | 1.0             | 0.0000          |
 
+### **Question-02**
+
+### **Problem Statement:**  
+Write a program that solves a **system of two linear equations** in two variables using the given coefficients.  
+
+Given two equations of the form:  
+\[
+a_1x + b_1y = c_1
+\]
+\[
+a_2x + b_2y = c_2
+\]
+where \(a_1, b_1, c_1, a_2, b_2, c_2\) are provided as inputs, your task is to **compute the values of \(x\) and \(y\)** and display them as output.  
+
+### **Input:**  
+- Six numbers: \(a_1, b_1, c_1, a_2, b_2, c_2\)  
+
+### **Output:**  
+- The values of \(x\) and \(y\) that satisfy both equations.  
+
+### **Example 1:**  
+#### **Input:**  
+```
+1 1 5  
+1 -1 1  
+```
+#### **Processing:**  
+The equations are:  
+\[
+x + y = 5
+\]
+\[
+x - y = 1
+\]
+Solving for \(x\) and \(y\):  
+- Adding both equations:  
+  \[
+  (x + y) + (x - y) = 5 + 1 \Rightarrow 2x = 6 \Rightarrow x = 3
+  \]
+- Substituting \(x = 3\) into the first equation:  
+  \[
+  3 + y = 5 \Rightarrow y = 2
+  \]
+#### **Output:**  
+```
+3 2
+```
+
+---
+
+### **Example 2:**  
+#### **Input:**  
+```
+2 3 12  
+1 -1 1  
+```
+#### **Processing:**  
+The equations are:  
+\[
+2x + 3y = 12
+\]
+\[
+x - y = 1
+\]
+Solving for \(x\) and \(y\):  
+- Express \(x\) from the second equation:  
+  \[
+  x = y + 1
+  \]
+- Substitute into the first equation:  
+  \[
+  2(y + 1) + 3y = 12
+  \]
+  \[
+  2y + 2 + 3y = 12
+  \]
+  \[
+  5y + 2 = 12 \Rightarrow 5y = 10 \Rightarrow y = 2
+  \]
+- Substitute \(y = 2\) into \(x = y + 1\):  
+  \[
+  x = 2 + 1 = 3
+  \]
+#### **Output:**  
+```
+3 2
+```
+
+---
+
+### **Example 3 (No Solution Case):**  
+#### **Input:**  
+```
+1 1 2  
+2 2 5  
+```
+#### **Processing:**  
+The equations are:  
+\[
+x + y = 2
+\]
+\[
+2x + 2y = 5
+\]
+Rewriting the second equation:  
+\[
+2(x + y) = 5
+\]
+Since \(x + y = 2\), substituting gives:  
+\[
+2(2) = 5
+\]
+which is **false**, meaning there is **no solution**.  
+
+#### **Output:**  
+```
+No solution
+```
+
+---
+
+### **Example 4 (Infinite Solutions Case):**  
+#### **Input:**  
+```
+1 2 3  
+2 4 6  
+```
+#### **Processing:**  
+The equations are:  
+\[
+x + 2y = 3
+\]
+\[
+2x + 4y = 6
+\]
+The second equation is just **twice** the first equation, meaning they represent the **same equation**. This leads to **infinitely many solutions**.  
+
+#### **Output:**  
+```
+Infinite solutions
+```
+
+---
+
 
