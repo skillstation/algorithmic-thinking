@@ -14,6 +14,17 @@
 
 ### PROBLEM STATEMENTS
 
+**1. LINEAR ALGEBRA SERIES**
+
+**A. MATRICES**
+
+• [01 Sum of Two Matrices](assignments/sum-of-two-matrix.md)
+• [Multiplication of Two Matrices]
+• [Transpose of a given Matrix]
+• [Determinant of a given Matrix]
+• [Inverse of a given Matrix]
+• [Solutions to Linear Equations using Matrix]
+
 ### W1-P1-QUESTION:  
 Find the sum of the first \( n \) natural numbers. Given an integer \( n \), calculate the sum of all natural numbers from 1 to \( n \).  
 
