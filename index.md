@@ -9,8 +9,8 @@
 | **Stuents On-Roll** | **Name of the Student** | **Performance Score** |
 |:-------------------:|:-----------------------:|:---------------------:|
 | AT01 | [Varuna R.](https://docs.google.com/document/d/1egePuRC7RQHzS0G6Safl0aegd5JV5308oNpbvUj0OJI/edit?usp=sharing) | 1/2 |
-| AT02 | Prathiva P. | 2/2 | 
-| AT03 | Jeevlin J. | - |
+| AT02 | Prathiba P. | 2/2 | 
+| AT03 |  | - |
 
 ### PROBLEM STATEMENTS
 
@@ -18,12 +18,12 @@
 
 **A. MATRICES**
 
-• [01 Sum of Two Matrices](assignments/sum-of-two-matrix.md)
-• [Multiplication of Two Matrices]
-• [Transpose of a given Matrix]
-• [Determinant of a given Matrix]
-• [Inverse of a given Matrix]
-• [Solutions to Linear Equations using Matrix]
+- [Sum of Two Matrices](assignments/sum-of-two-matrix.md)
+- [Multiplication of Two Matrices](assignments/multiplication-of-two-matrices.md)
+- [Transpose of a given Matrix](assignments/transpose-of-a-given-matrix.md)
+- [Determinant of a given Matrix](assignments/determinant-of-a-given-matrix.md)
+- [Inverse of a given Matrix](assignments/inverse-of-a-given-matrix.md)
+- [Solutions to Linear Equations using Matrix](assignments/solutions-to-linear-equations.md)
 
 ### W1-P1-QUESTION:  
 Find the sum of the first \( n \) natural numbers. Given an integer \( n \), calculate the sum of all natural numbers from 1 to \( n \).  
